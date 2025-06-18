@@ -16,31 +16,11 @@
   width: 100vw;
   height: 90vh;
 }
-/* @keyframes pulse-red {
-  0%,
-  50% {
-    background-color: #fecaca;
-  }
-  50% {
-    background-color: #f87171;
-  }
-} */
+
 @keyframes pulse-red {
-  /* 0% {
-    stroke: #4687f0;
-    fill: #2f488d;
-    background-color: lightblue;
-  } */
   50% {
-    stroke: #e72d2d;
-    /* fill: #f87474; */
     background-color: #ebadad;
   }
-  /* 100% {
-    stroke: #4687f0;
-    fill: #2f488d;
-    background-color: lightblue;
-  } */
 }
 
 .timer-wrapper {

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "../styles/mainSection.css";
 
 const MainSection = () => {
-  const [count, setCount] = useState(30);
+  const [count, setCount] = useState(45);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -21,18 +21,18 @@ const MainSection = () => {
 
   // Determine wrapper background color
   let colorClass = "timer-blue";
-  if (count <= 15) colorClass = "timer-pulse-red";
+  if (count <= 10) colorClass = "timer-pulse-red";
 
-  const radius = 120;
+  const radius = 150;
   const circumference = 2 * Math.PI * radius;
-  const svg_center = 130; // Center of the SVG circle
+  const svg_center = 180; // Center of the SVG circle
   const circle_stroke_width = 10; // Stroke width of the circle
-  const progress = ((30 - count) / 30) * circumference;
+  const progress = ((45 - count) / 45) * circumference;
 
   return (
     <div className="main-section">
       <div className={`timer-wrapper ${colorClass}`}>
-        <svg width="260" height="260">
+        <svg width="360" height="360">
           <circle
             cx={svg_center}
             cy={svg_center}
@@ -46,12 +46,12 @@ const MainSection = () => {
             cy={svg_center}
             r={radius}
             fill="none"
-            stroke="#3b82f6"
+            stroke={count <= 10 ? "red" : "#3b82f9"}
             strokeWidth={circle_stroke_width}
             strokeDasharray={circumference}
             strokeDashoffset={circumference - progress}
             strokeLinecap="round"
-            className={count <= 15 ? "timer-pulse-red" : ""}
+            className={count <= 10 ? "timer-pulse-red" : ""}
           />
           <g>
             <text
@@ -59,10 +59,10 @@ const MainSection = () => {
               y="50%"
               textAnchor="middle"
               dy=".3em"
-              fontSize="44"
-              fill={count <= 15 ? "#f87474" : "#ffffff"}
+              fontSize="55"
+              fill="#111111"
               fontWeight="bold"
-              className={count <= 15 ? "timer-pulse-red" : ""}
+              className={count <= 10 ? "timer-pulse-red" : ""}
             >
               {count}
             </text>
