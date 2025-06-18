@@ -18,8 +18,14 @@
 }
 
 @keyframes pulse-red {
+  0% {
+    background-color: lightblue;
+  }
   50% {
     background-color: #ebadad;
+  }
+  100% {
+    background-color: lightblue;
   }
 }
 
