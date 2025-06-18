@@ -1,0 +1,72 @@
+.main-section {
+  background-image: url("./background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  box-sizing: border-box;
+  color: #1e3a8a;
+  font-family: Arial, sans-serif;
+
+  width: 100vw;
+  height: 90vh;
+}
+/* @keyframes pulse-red {
+  0%,
+  50% {
+    background-color: #fecaca;
+  }
+  50% {
+    background-color: #f87171;
+  }
+} */
+@keyframes pulse-red {
+  /* 0% {
+    stroke: #4687f0;
+    fill: #2f488d;
+    background-color: lightblue;
+  } */
+  50% {
+    stroke: #e72d2d;
+    /* fill: #f87474; */
+    background-color: #ebadad;
+  }
+  /* 100% {
+    stroke: #4687f0;
+    fill: #2f488d;
+    background-color: lightblue;
+  } */
+}
+
+.timer-wrapper {
+  padding: 1.5rem;
+  border-radius: 50%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+  transition: background-color 0.5s ease;
+}
+
+/* Color states */
+.timer-blue {
+  background-color: lightblue;
+}
+.timer-blue:hover {
+  background-color: #bfdbfe;
+}
+.timer-pulse-red {
+  animation: pulse-red 1s infinite;
+}
+
+.main-section p {
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  max-width: 80%;
+  text-align: center;
+  font-size: 1.1rem;
+  color: white;
+}
