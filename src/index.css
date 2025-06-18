@@ -16,7 +16,7 @@
 body {
   margin: 0;
   position: relative;
-  min-height: 98vh;
+  min-height: 90vh;
 }
 
 @media (prefers-color-scheme: light) {
