@@ -7,12 +7,12 @@
 
   /* background-color: var(--background_color); */
   color: black;
-  padding: 0.5rem 1rem;
+  padding: 0.4rem 1rem;
   gap: 1rem;
 }
 .logo,
 .ansie {
-  height: 50px;
+  height: 45px;
   width: auto;
   border-radius: 50%;
   object-fit: contain;
@@ -41,9 +41,6 @@
 }
 /* responsive header with media */
 @media (max-width: 600px) {
-  .header {
-    padding: 0.5rem;
-  }
   .hidden {
     display: none;
   }
