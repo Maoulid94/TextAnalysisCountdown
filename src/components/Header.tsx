@@ -2,7 +2,7 @@ import "../styles/header.css";
 export const Header = () => {
   return (
     <div className="header">
-      <img className="drapeau" src="/drapeau.png" alt="logo" />
+      <img className="ansie" src="/ansie-logo.png" alt="logo" />
       <h2>
         <span className="hidden">
           Laboratoire de Recherche en Intelligence Artificielle (
@@ -12,7 +12,7 @@ export const Header = () => {
         <span className="ai">AI</span>
         <span className="hidden">)</span>
       </h2>
-      <img className="logo" src="/logo.png" alt="logo" />
+      <img className="logo" src="/ud-logo.png" alt="logo" />
     </div>
   );
 };

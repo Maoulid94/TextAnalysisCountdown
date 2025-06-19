@@ -5,20 +5,17 @@
   justify-content: space-between;
   flex-wrap: wrap;
 
-  background-color: var(--background_color);
+  /* background-color: var(--background_color); */
   color: black;
   padding: 0.8rem 1rem;
   gap: 1rem;
 }
 .logo,
-.drapeau {
-  height: 45px;
+.ansie {
+  height: 60px;
   width: auto;
   border-radius: 50%;
   object-fit: contain;
-}
-.drapeau {
-  height: 60px;
 }
 .header h2 {
   font-size: clamp(1rem, 3vw, 1.6rem);
@@ -51,7 +48,7 @@
     display: none;
   }
   .logo,
-  .drapeau {
+  .ansie {
     height: 40px;
   }
   .header h2 {

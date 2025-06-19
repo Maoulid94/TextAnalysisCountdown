@@ -31,6 +31,16 @@ const MainSection = () => {
 
   return (
     <div className="main-section">
+      <p className="txt">
+        Ce petit exercice est le fruit de la collaboration entre l'équipe
+        technique de l'ANSIE (Cybersécurité et Computer Sciences) et des
+        étudiants de l'Université de Djibouti (parcours IA, data sciences et
+        informatique décisionnelle) avec l’appui technique des membres du
+        Laboratoire de Recherche en Intelligence Artificielle (LaRIA). Il s'agit
+        d'une expérience en immersion pour les participants afin de les
+        sensibiliser autour de la question des data et de l'IA à travers un cas
+        pratique.
+      </p>
       <div className={`timer-wrapper ${colorClass}`}>
         <svg
           width="min(200px,40vw"
@@ -74,9 +84,10 @@ const MainSection = () => {
           </g>
         </svg>
       </div>
-      <p>
-        Dans quelques instants, les résultats des analyses des réponses au
-        questionnaire s'afficheront...
+      <p className="msg">
+        Analyse en cours…Veuillez patienter un instant.
+        <br></br>
+        Merci!
       </p>
     </div>
   );
