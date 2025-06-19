@@ -5,10 +5,11 @@
   left: 0px;
   right: 0px;
   justify-content: center;
-  color: black;
+  color: rgba(0, 0, 0, 0.7);
   background-color: var(--background_color);
   height: 30px;
   align-items: center;
   gap: 4px;
   font-size: 1rem;
+  font-weight: 500;
 }
