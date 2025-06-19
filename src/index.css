@@ -23,9 +23,14 @@ body {
   overflow-x: hidden;
 }
 
-/* @media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    color: #111111;
+    background-color: lightblue;
   }
-} */
+
+  body {
+    background-color: lightblue;
+    color: #111111;
+  }
+}
