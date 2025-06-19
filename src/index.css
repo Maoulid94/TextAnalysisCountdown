@@ -6,7 +6,7 @@
   /* color-scheme: light dark; */
   /* color: rgba(255, 255, 255, 0.87); */
   color: #111111;
-  background-color: lightblue; 
+  background-color: lightblue;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,11 +15,11 @@
 }
 
 body {
-  background-color: lightblue; 
+  background-color: lightblue;
   margin: 0;
   position: relative;
   width: 100vw;
-  height: 90vh;
+  height: 80vh;
   overflow-x: hidden;
 }
 
