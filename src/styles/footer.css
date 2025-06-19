@@ -22,7 +22,7 @@
 /* Responsive adjustments */
 @media (max-width: 480px) {
   .footer {
-    flex-direction: column;
+    /* flex-direction: column; */
     font-size: 0.7rem;
     height: auto;
     padding: 0.5rem;
