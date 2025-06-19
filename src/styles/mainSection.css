@@ -3,6 +3,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  overflow: hidden;
 
   display: flex;
   flex-direction: column;
@@ -15,7 +16,8 @@
   font-family: Arial, sans-serif;
 
   width: 100vw;
-  height: 60vh;
+  /* height: 90vh; */
+  min-height: 100dvh;
   text-align: center;
 }
 
