@@ -23,9 +23,9 @@ const MainSection = () => {
   let colorClass = "timer-blue";
   if (count <= 10) colorClass = "timer-pulse-red";
 
-  const radius = 75;
+  const radius = 80;
   const circumference = 2 * Math.PI * radius;
-  const svg_center = 90; // Center of the SVG circle
+  const svg_center = 100; // Center of the SVG circle
   const circle_stroke_width = 10; // Stroke width of the circle
   const progress = ((45 - count) / 45) * circumference;
 
@@ -40,9 +40,9 @@ const MainSection = () => {
       </p>
       <div className={`timer-wrapper ${colorClass}`}>
         <svg
-          width="min(180px,40vw"
-          height="min(180px,40vw)"
-          viewBox="0 0 180 180"
+          width="min(200px,40vw"
+          height="min(200px,40vw)"
+          viewBox="0 0 200 200"
           preserveAspectRatio="xMidYMid meet"
         >
           <circle
