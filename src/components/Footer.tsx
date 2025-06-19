@@ -2,7 +2,12 @@ import "../styles/footer.css";
 export const Footer = () => {
   return (
     <div className="footer">
-      © {new Date().getFullYear()} M.A.S. All rights reserved.
+      <span className="copyright">© {new Date().getFullYear()}</span>
+      <span>
+        <span className="la">La</span>
+        <span className="r">R</span>
+        <span className="ai">AI</span>. Tous droits réservés.
+      </span>
     </div>
   );
 };

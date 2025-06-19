@@ -1,16 +1,29 @@
 .header {
   display: flex;
   height: 60px;
-  width: 98%;
+  width: auto;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   background-color: var(--background_color);
-  padding: 0 18px;
+  padding: 0 15px;
   color: black;
 }
-img {
-  height: 40px;
-  width: 40px;
+.logo {
+  height: 45px;
+  width: 45px;
   border-radius: 50%;
+}
+.drapeau {
+  height: 60px;
+  width: auto;
+}
+.la {
+  color: green;
+}
+.r {
+  color: blue;
+}
+.ai {
+  color: red;
 }

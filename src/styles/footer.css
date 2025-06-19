@@ -9,4 +9,5 @@
   background-color: var(--background_color);
   height: 30px;
   align-items: center;
+  gap: 4px;
 }

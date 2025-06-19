@@ -23,16 +23,16 @@ const MainSection = () => {
   let colorClass = "timer-blue";
   if (count <= 10) colorClass = "timer-pulse-red";
 
-  const radius = 150;
+  const radius = 80;
   const circumference = 2 * Math.PI * radius;
-  const svg_center = 180; // Center of the SVG circle
+  const svg_center = 100; // Center of the SVG circle
   const circle_stroke_width = 10; // Stroke width of the circle
   const progress = ((45 - count) / 45) * circumference;
 
   return (
     <div className="main-section">
       <div className={`timer-wrapper ${colorClass}`}>
-        <svg width="360" height="360">
+        <svg width="200" height="200">
           <circle
             cx={svg_center}
             cy={svg_center}
@@ -69,7 +69,10 @@ const MainSection = () => {
           </g>
         </svg>
       </div>
-      <p>Your text analysis will begin shortly. Please wait...</p>
+      <p>
+        Dans quelques instants, les résultats des analyses des réponses au
+        questionnaire s'afficheront...
+      </p>
     </div>
   );
 };
