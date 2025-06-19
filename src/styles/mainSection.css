@@ -23,7 +23,7 @@
 }
 
 .timer-wrapper {
-  padding: 1.5rem;
+  padding: 0.8rem;
   border-radius: 50%;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
   margin-bottom: 1.5rem;
@@ -77,9 +77,6 @@
 @media (min-width: 1024px) {
   .main-section p {
     max-width: 85%;
-  }
-  .timer-wrapper {
-    padding: 1rem;
   }
 }
 @media (min-width: 1440px) {
