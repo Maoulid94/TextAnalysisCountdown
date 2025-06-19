@@ -1,5 +1,5 @@
 .main-section {
-  background-image: url("/background.jpg");
+  background-image: url("/logo.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -61,9 +61,8 @@
   background-color: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(3px);
 }
-.txt{
+.txt {
   width: 80%;
-
 }
 /* .msg{
   width: 30%;
