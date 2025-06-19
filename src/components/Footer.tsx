@@ -6,7 +6,7 @@ export const Footer = () => {
       <span>
         <span className="la">La</span>
         <span className="r">R</span>
-        <span className="ai">AI</span>. Tous droits réservés.
+        <span className="ai">AI</span>.
       </span>
     </div>
   );
