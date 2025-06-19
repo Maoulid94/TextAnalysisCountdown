@@ -22,7 +22,7 @@
 }
 
 .timer-wrapper {
-  padding: 0.4rem;
+  padding: 1.5rem;
   border-radius: 50%;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
   transition: background-color 0.5s ease;
