@@ -10,14 +10,14 @@
   justify-content: center;
   align-items: center;
 
-  padding: 2rem;
+  padding: 1rem;
   box-sizing: border-box;
   color: #1e3a8a;
   font-family: Arial, sans-serif;
 
   width: 100vw;
-  /* height: 90vh; */
-  min-height: 100dvh;
+  height: 90vh;
+  /* min-height: 80dvh; */
   text-align: center;
 }
 
