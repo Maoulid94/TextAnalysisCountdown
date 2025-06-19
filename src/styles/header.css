@@ -1,13 +1,14 @@
 .header {
   display: flex;
-  height: 60px;
-  width: auto;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   background-color: var(--background_color);
-  padding: 0 15px;
   color: black;
+  padding: 0 15px;
+  flex-wrap: wrap;
+  /* height: 60px;
+  width: auto; */
 }
 .logo {
   height: 45px;
@@ -18,6 +19,11 @@
   height: 60px;
   width: auto;
 }
+.header h2 {
+  font-size: clamp(1rem, 3vw, 1.6rem);
+  text-align: center;
+  margin: 0 1rem;
+}
 .la {
   color: green;
 }
@@ -26,4 +32,18 @@
 }
 .ai {
   color: red;
+}
+/* responsive header with media */
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+  .logo,
+  .drapeau {
+    height: 40px;
+  }
+  .header h2 {
+    font-size: 1.1rem;
+  }
 }

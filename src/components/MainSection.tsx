@@ -32,7 +32,12 @@ const MainSection = () => {
   return (
     <div className="main-section">
       <div className={`timer-wrapper ${colorClass}`}>
-        <svg width="200" height="200">
+        <svg
+          width="min(200px,40vw"
+          height="min(200px,40vw)"
+          viewBox="0 0 200 200"
+          preserveAspectRatio="xMidYMid meet"
+        >
           <circle
             cx={svg_center}
             cy={svg_center}
