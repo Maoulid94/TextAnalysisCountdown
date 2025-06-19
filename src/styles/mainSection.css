@@ -73,12 +73,12 @@
     padding: 1rem;
   }
   .main-section p {
-    max-width: 70%;
+    max-width: 85%;
   }
 }
 @media (min-width: 1024px) {
   .main-section p {
-    max-width: 60%;
+    max-width: 85%;
   }
   .timer-wrapper {
     padding: 1rem;
@@ -90,6 +90,6 @@
   }
 
   .main-section p {
-    max-width: 50%;
+    max-width: 85%;
   }
 }
