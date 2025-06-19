@@ -25,7 +25,6 @@
   padding: 0.4rem;
   border-radius: 50%;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-  margin-bottom: 1.5rem;
   transition: background-color 0.5s ease;
 }
 /* Color states */
