@@ -9,7 +9,7 @@ export const Header = () => {
         </span>
         <span className="la">La</span>
         <span className="r">R</span>
-        <span className="ai">AI</span>
+        <span className="ai">IA</span>
         <span className="hidden">)</span>
       </h2>
       <img className="logo" src="/ud-logo.png" alt="logo" />

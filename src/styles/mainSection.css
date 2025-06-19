@@ -54,10 +54,6 @@
 .main-section p {
   padding: 0.5rem 2rem;
   border-radius: 8px;
-  /* max-width: 80%; */
-  /* height: 90vh; */
-  width: 80%;
-  /* width: auto; */
   text-align: center;
   font-size: clamp(1rem, 2vw, 1.5rem);
   box-shadow: 0 6px 18px rgba(173, 216, 230, 0.6);
@@ -66,6 +62,13 @@
   background-color: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(3px);
 }
+.txt{
+  width: 80%;
+
+}
+/* .msg{
+  width: 30%;
+} */
 
 /* Responsive adjustments */
 @media (min-width: 768px) {
