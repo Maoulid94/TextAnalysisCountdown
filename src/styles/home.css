@@ -64,7 +64,6 @@ p {
   height: 25px;
   transition: transform 0.5s ease;
   /* animation: swing 1s ease-in-out infinite; */
-  /* transform-origin: top center; */
 }
 .btn:hover .icon {
   transform: rotate(360deg);
