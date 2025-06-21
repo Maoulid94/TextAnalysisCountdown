@@ -1,15 +1,14 @@
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import MainSection from "./components/MainSection";
+import Home from "./page/home";
+import CountdownRedirect from "./page/CountdownRedirect";
 
 function App() {
   return (
-    <>
-      <Header></Header>
-      <MainSection></MainSection>
-      <Footer></Footer>
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="countdown" element={<CountdownRedirect />} />
+    </Routes>
   );
 }
 

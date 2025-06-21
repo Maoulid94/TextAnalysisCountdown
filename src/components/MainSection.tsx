@@ -2,15 +2,16 @@ import { useEffect, useState } from "react";
 import "../styles/mainSection.css";
 
 const MainSection = () => {
-  const [count, setCount] = useState(45);
+  const [count, setCount] = useState(30);
 
   useEffect(() => {
     const timer = setInterval(() => {
       setCount((prev) => {
         if (prev <= 1) {
           clearInterval(timer);
-          window.location.href =
-            "https://app.powerbi.com/view?r=eyJrIjoiMDZhMzk2NTItNjEyMy00OWQ5LWI1MWQtYTAwYWY5ZTg4YjgzIiwidCI6IjNiOGVkMmNiLWY2ZjctNDU5Zi1iNDI0LTc1MTUzMDUzZmFjMiIsImMiOjl9";
+          window.location.replace(
+            "https://app.powerbi.com/view?r=eyJrIjoiMDZhMzk2NTItNjEyMy00OWQ5LWI1MWQtYTAwYWY5ZTg4YjgzIiwidCI6IjNiOGVkMmNiLWY2ZjctNDU5Zi1iNDI0LTc1MTUzMDUzZmFjMiIsImMiOjl9"
+          );
           return 0;
         }
         return prev - 1;
@@ -27,16 +28,16 @@ const MainSection = () => {
   const circumference = 2 * Math.PI * radius;
   const svg_center = 100; // Center of the SVG circle
   const circle_stroke_width = 10; // Stroke width of the circle
-  const progress = ((45 - count) / 45) * circumference;
+  const progress = ((30 - count) / 30) * circumference;
 
   return (
     <div className="main-section">
       <p className="txt">
         Ce petit exercice est le fruit de la collaboration entre l'équipe de
-        l'ANSIE (Cybersécurité et Computer Sciences) et des étudiants de
-        l'Université de Djibouti (parcours IA, data sciences et informatique
-        décisionnelle) avec l’appui technique des membres du Laboratoire de
-        Recherche en Intelligence Artificielle (LaRIA).
+        l'ANSIE et des étudiants de l'Université de Djibouti (parcours IA, data
+        sciences et informatique décisionnelle) avec l’appui technique des
+        membres du Laboratoire de Recherche en Intelligence Artificielle
+        (LaRIA).
       </p>
       <div className={`timer-wrapper ${colorClass}`}>
         <svg
