@@ -11,7 +11,10 @@ export const Home = () => {
         src="/Schéma_Questionnaire.png"
         alt="logo"
       />
-      <button onClick={() => navigate("/countdown")} className="btn">
+      <button
+        onClick={() => navigate("/countdown", { replace: true })}
+        className="btn"
+      >
         <img className="icon" src="/icon.png" />
         Démarrer l’analyse
       </button>

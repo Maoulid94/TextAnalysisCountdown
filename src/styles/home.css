@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* background-color: linear-gradient(to right, #dfefff, #f5faff); */
+  /* background: linear-gradient(to bottom, #f2faff, #e4f0fb); */
 }
 .home {
   width: 100vw;
@@ -18,7 +20,7 @@ p {
   padding: 0.6rem;
   font-size: clamp(1rem, 3vw, 1.6rem);
   /* background-color: #5dade2; */
-  background-color: #a3d5f7;
+  /* background-color: #a3d5f7; */
   color: #003366;
   border-radius: 1rem;
   width: 50%;
@@ -48,8 +50,8 @@ p {
   color: black;
 }
 .Schéma-Questionnaire-img {
-  width: 65%;
   height: 65%;
+  width: 90%;
   border-radius: 1rem;
   transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
@@ -61,7 +63,27 @@ p {
   width: 25px;
   height: 25px;
   transition: transform 0.5s ease;
+  /* animation: swing 1s ease-in-out infinite; */
+  /* transform-origin: top center; */
 }
 .btn:hover .icon {
   transform: rotate(360deg);
 }
+
+/* @keyframes swing {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: rotate(-15deg);
+  }
+  75% {
+    transform: rotate(7.5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+} */
