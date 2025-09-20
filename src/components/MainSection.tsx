@@ -33,11 +33,9 @@ const MainSection = () => {
   return (
     <div className="main-section">
       <p className="txt">
-        Ce petit exercice est le fruit de la collaboration entre l'équipe de
-        l'ANSIE et des étudiants de l'Université de Djibouti (parcours IA, data
-        sciences et informatique décisionnelle) avec l’appui technique des
-        membres du Laboratoire de Recherche en Intelligence Artificielle
-        (LaRIA).
+        Ce petit exercice est le fruit de ma propre initiative et de mon travail
+        personnel, réalisé dans le cadre de mes compétences en intelligence
+        artificielle, data science et informatique décisionnelle.
       </p>
       <div className={`timer-wrapper ${colorClass}`}>
         <svg

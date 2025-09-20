@@ -4,9 +4,13 @@ export const Footer = () => {
     <div className="footer">
       <span className="copyright">© {new Date().getFullYear()}</span>
       <span>
-        <span className="la">La</span>
-        <span className="r">R</span>
-        <span className="ai">IA</span>
+        <span className="la">
+          M<span>.</span>
+        </span>
+        <span className="r">
+          A<span>.</span>
+        </span>
+        <span className="ai">S</span>
       </span>
     </div>
   );
